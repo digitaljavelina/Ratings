@@ -21,6 +21,8 @@
 		994A058519BCB55F006BABD7 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 994A056719BCB55F006BABD7 /* UIKit.framework */; };
 		994A058D19BCB55F006BABD7 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 994A058B19BCB55F006BABD7 /* InfoPlist.strings */; };
 		994A058F19BCB55F006BABD7 /* RatingsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 994A058E19BCB55F006BABD7 /* RatingsTests.m */; };
+		994A059A19BCC9A1006BABD7 /* PlayerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 994A059919BCC9A1006BABD7 /* PlayerViewController.m */; };
+		994A059D19BCCAA7006BABD7 /* Player.m in Sources */ = {isa = PBXBuildFile; fileRef = 994A059C19BCCAA7006BABD7 /* Player.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +55,10 @@
 		994A058A19BCB55F006BABD7 /* RatingsTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "RatingsTests-Info.plist"; sourceTree = "<group>"; };
 		994A058C19BCB55F006BABD7 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		994A058E19BCB55F006BABD7 /* RatingsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RatingsTests.m; sourceTree = "<group>"; };
+		994A059819BCC9A1006BABD7 /* PlayerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlayerViewController.h; sourceTree = "<group>"; };
+		994A059919BCC9A1006BABD7 /* PlayerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlayerViewController.m; sourceTree = "<group>"; };
+		994A059B19BCCAA7006BABD7 /* Player.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Player.h; sourceTree = "<group>"; };
+		994A059C19BCCAA7006BABD7 /* Player.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Player.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,6 +121,10 @@
 				994A057219BCB55F006BABD7 /* AppDelegate.h */,
 				994A057319BCB55F006BABD7 /* AppDelegate.m */,
 				994A057519BCB55F006BABD7 /* Main.storyboard */,
+				994A059819BCC9A1006BABD7 /* PlayerViewController.h */,
+				994A059919BCC9A1006BABD7 /* PlayerViewController.m */,
+				994A059B19BCCAA7006BABD7 /* Player.h */,
+				994A059C19BCCAA7006BABD7 /* Player.m */,
 				994A057819BCB55F006BABD7 /* ViewController.h */,
 				994A057919BCB55F006BABD7 /* ViewController.m */,
 				994A057B19BCB55F006BABD7 /* Images.xcassets */,
@@ -250,8 +260,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				994A057A19BCB55F006BABD7 /* ViewController.m in Sources */,
+				994A059A19BCC9A1006BABD7 /* PlayerViewController.m in Sources */,
 				994A057419BCB55F006BABD7 /* AppDelegate.m in Sources */,
 				994A057019BCB55F006BABD7 /* main.m in Sources */,
+				994A059D19BCCAA7006BABD7 /* Player.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
