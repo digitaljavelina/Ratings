@@ -17,6 +17,8 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
 
+  [NewRelicAgent startWithApplicationToken:@"AAeaa5f55b79c864baec2ade6f82f8d7928020bfe1"];
+    
     _players = [NSMutableArray arrayWithCapacity:20];
     
     Player *player = [[Player alloc] init];
